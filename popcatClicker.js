@@ -1,5 +1,5 @@
 let interval = null;
-const doClick = () => () => {
+const doClick = () => {
   document.dispatchEvent(new PointerEvent('pointerdown'));
   document.dispatchEvent(new PointerEvent('pointerup'));
 };
